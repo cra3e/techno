@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Tabs, Tab, Typography } from '@mui/material';
-import MaterialTechno from "./MaterialTechno";
+import Input from "./Input";
 import Output from "./Output";
 
 function TabPanel(props) {
@@ -28,7 +28,7 @@ export default function TabsOne() {
                 <Tab label="КОПИРАЙТ" />
             </Tabs>
             <TabPanel value={value} index={0}>
-                <MaterialTechno/>
+                <Input/>
             </TabPanel>
             <TabPanel value={value} index={1}>
                 <Output/>

@@ -1,8 +1,8 @@
 import React, {createContext, useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MaterialTechno from "./components/MaterialTechno";
-import Tabs from "./components/tabs";
+import Input from "./components/Input";
+import Tabs from "./components/Tabs";
 
 export const AppContext = createContext();
 

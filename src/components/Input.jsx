@@ -34,7 +34,7 @@ const darkTheme = createTheme({
   }
 });
 
-function MaterialTechno() {
+function Input() {
   const formik = useFormik({
     initialValues: {},
     onSubmit: (values) => {
@@ -164,4 +164,4 @@ function MaterialTechno() {
   );
 }
 
-export default MaterialTechno;
+export default Input;
