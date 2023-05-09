@@ -1,24 +1,19 @@
+import React, {createContext, useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MaterialTechno from "./components/MaterialTechno";
+import Tabs from "./components/tabs";
+
+export const AppContext = createContext();
 
 function App() {
+  const [inputFields, setInputFields] = useState({ field1: '', field2: '', field3: '' , mountOrNot: ''});
+    const [image1, setImage1] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <AppContext.Provider value={{ inputFields, setInputFields, image1, setImage1 }}>
+        <Tabs/>
+      </AppContext.Provider>
   );
 }
 
