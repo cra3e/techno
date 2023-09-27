@@ -1,7 +1,7 @@
 {
   "main.css": "/techno/static/css/main.6daf0e84.chunk.css",
-  "main.js": "/techno/static/js/main.ca1174e7.chunk.js",
-  "main.js.map": "/techno/static/js/main.ca1174e7.chunk.js.map",
+  "main.js": "/techno/static/js/main.f36552f3.chunk.js",
+  "main.js.map": "/techno/static/js/main.f36552f3.chunk.js.map",
   "static/js/1.1c43c3bb.chunk.js": "/techno/static/js/1.1c43c3bb.chunk.js",
   "static/js/1.1c43c3bb.chunk.js.map": "/techno/static/js/1.1c43c3bb.chunk.js.map",
   "static/js/2.6d965c6d.chunk.js": "/techno/static/js/2.6d965c6d.chunk.js",
@@ -11,6 +11,6 @@
   "static/media/loading-loading-forever.gif": "/techno/static/media/loading-loading-forever.ed2c4fc1.gif",
   "static/css/main.6daf0e84.chunk.css.map": "/techno/static/css/main.6daf0e84.chunk.css.map",
   "index.html": "/techno/index.html",
-  "precache-manifest.3f062c6bf5dfe8e1d508813885a1e5c4.js": "/techno/precache-manifest.3f062c6bf5dfe8e1d508813885a1e5c4.js",
+  "precache-manifest.5e44069f587616d480c8ca2076352c6e.js": "/techno/precache-manifest.5e44069f587616d480c8ca2076352c6e.js",
   "service-worker.js": "/techno/service-worker.js"
 }
